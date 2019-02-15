@@ -11,4 +11,7 @@ let arrayTwoD = (a, b) => {
   return arr;
 };
 
-console.log(arrayTwoD(5, 6));
+arrayTwoD(5, 6);
+
+
+module.exports = { arrayTwoD };
